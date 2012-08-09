@@ -137,6 +137,7 @@ tbody td span {
 <thead>
 <tr>
 <td class="head_selector" colspan="2">
+<h1>ONJSC</h1>
 <select id="changeMonth" name="changeMonth">
 <?
     $months = array( '2011-08' => 'August 2011',
@@ -157,16 +158,8 @@ foreach (array_keys($months) as $m) {
   echo('>' . $months[$m] . '</option>');
 }
 ?>
-<!--
-<option value="2012-01">January 2012</option>
-<option value="2012-02">February 2012</option>
-<option value="2012-03">March 2012</option>
-<option value="2012-04">April 2012</option>
-<option value="2012-05">May 2012</option>
-<option value="2012-06">June 2012</option>
-<option value="2012-07">July 2012</option>
--->
 </select>
+<p><a target="_blank" href="https://github.com/dzarrow/onjsc_monthly_almanac">Github</a></p>
 </td>
 <td class="head_image" colspan="5"><img src="monthly_almanac/mly_<? echo($year . "_" . $month) ?>_avgt.png"/></td>
 <td class="head_image" colspan="5"><img src="monthly_almanac/mly_<? echo($year . "_" . $month) ?>_maxt.png"/></td>
