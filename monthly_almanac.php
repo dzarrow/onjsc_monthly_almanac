@@ -160,6 +160,9 @@ foreach (array_keys($months) as $m) {
 ?>
 </select>
 <p><a target="_blank" href="https://github.com/dzarrow/onjsc_monthly_almanac">Github</a></p>
+<p><a target="_blank" href="http://danzarrow.com/stateclim_v2/test_monthly.php">Monthly Historical</a></p>
+<p><a target="_blank" href="http://klimat.rutgers.edu/~zarrow/stateclim_v2/station_history.php">Station History</a></p>
+<p><a target="_blank" href="http://precip.net/realtime/">Precip.net Daily</a></p>
 </td>
 <td class="head_image" colspan="5"><img src="monthly_almanac/mly_<? echo($year . "_" . $month) ?>_avgt.png"/></td>
 <td class="head_image" colspan="5"><img src="monthly_almanac/mly_<? echo($year . "_" . $month) ?>_maxt.png"/></td>
